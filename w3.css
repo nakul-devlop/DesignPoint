@@ -1,0 +1,100 @@
+ /* General Styles */
+ body {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  /* Navbar */
+  #myNavbar {
+    padding: 16px;
+    transition: 0.4s;
+  }
+  
+  #myNavbar a {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  #myNavbar img {
+    height: 50px;
+  }
+
+  /* Header Section */
+  header.bgimg-1 {
+    background-image: url('images/bg.png'); /* Replace with your background image */
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 48px;
+  }
+
+  header .w3-display-left {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+  }
+
+  /* About Section */
+  #about h2 {
+    color: #808362;
+  }
+
+  #about p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  /* Team Section */
+  #team .w3-card {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #team .w3-card:hover {
+    transform: translateY(-5px);
+  }
+
+  /* Work Section */
+  #work img {
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  #work img:hover {
+    opacity: 0.7;
+  }
+
+  /* Skills Section */
+  .w3-wide {
+    font-weight: 600;
+  }
+
+  .w3-dark-grey {
+    background-color: #606060 !important;
+  }
+
+  /* Contact Section */
+  #contact p {
+    font-size: 18px;
+  }
+
+  #contact form input {
+    margin-bottom: 16px;
+  }
+
+  #contact .w3-button {
+    background-color: #000;
+    color: #fff;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #000;
+    color: #fff;
+  }
+
+  footer a {
+    color: #808362;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: #ffffff;
+  }

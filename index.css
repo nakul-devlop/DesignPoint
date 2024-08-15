@@ -1,0 +1,24 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/bg.png");
+  background-image: linear-gradient(rgba(68, 61, 61, 0.5), rgba(68, 61, 61, 0.5)), url("images/bg.png");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.w3-image {
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
